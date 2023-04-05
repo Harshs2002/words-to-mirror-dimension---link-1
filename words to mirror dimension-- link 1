@@ -1,0 +1,2 @@
+name = input("enter ur name : ") # SAMPLE INPUT : Edyoda
+print(name[::-1]) # OUPUT : adoydE
