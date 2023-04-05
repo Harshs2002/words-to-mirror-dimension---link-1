@@ -1,2 +1,4 @@
-name = input("enter ur name : ") # SAMPLE INPUT : Edyoda
-print(name[::-1]) # OUPUT : adoydE
+name = input("enter ur name : ") #takes input from user: Edyoda
+for i in range(len(name)-1,-1,-1): # index ranges from n-1 to 0(included)
+    print(name[i],end="") # print the values
+output: adoydE
